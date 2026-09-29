@@ -1,0 +1,16 @@
+# dependencies
+node_modules/
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+
+# editors / OS
+.DS_Store
+*.swp
+*~
+
+# scratch
+/tmp/
+*.log
