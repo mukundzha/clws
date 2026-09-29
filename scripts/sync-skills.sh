@@ -8,6 +8,9 @@ TARGETS=(
   ".claude/skills/changelog-writer"
   ".codex/skills/changelog-writer"
   ".opencode/skills/changelog-writer"
+  ".cursor/skills/changelog-writer"
+  ".github/skills/changelog-writer"
+  ".gemini/skills/changelog-writer"
 )
 for t in "${TARGETS[@]}"; do
   mkdir -p "$ROOT/$t/scripts"
